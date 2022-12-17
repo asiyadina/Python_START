@@ -6,10 +6,7 @@
 Ввод: значение типа <str>
 Вывод: значение числового типа данных
 """
-#message = "1 + 2 + 5 + 8"
-#a, symbol, b = message.split()
-#if symbol == "+":
-#    print(float(a) + float(b))
+import unittest
 
 
 def find(exp, sech_operand):
@@ -58,3 +55,4 @@ def calk(exp):
     if __name__ == '__main__':
         exp = "4 / 2 * 3" 
         print(calk(exp))     
+    
